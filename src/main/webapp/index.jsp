@@ -4,7 +4,7 @@
 <html> 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>DevOps Registration Foran</title> 
+<title>DevOps Registration Forn</title> 
 </head> 
 <body> 
 <h1>EduApp Register Form</h1> 

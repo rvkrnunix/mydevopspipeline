@@ -8,7 +8,7 @@
 </head> 
 <body> 
 <h1>EduApp Register Form</h1> 
-<form action="" method="post"> 
+<form action="" method="post">
              <table style="with: 50%">
                  <tr>
                     <td>First Name</td>

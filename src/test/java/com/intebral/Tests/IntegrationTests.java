@@ -9,7 +9,6 @@ import org.testng.AssertJUnit;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 public class IntegrationTests {
 	
 	WebDriver driver;

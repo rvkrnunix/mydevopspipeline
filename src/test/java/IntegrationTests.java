@@ -1,4 +1,3 @@
-package com.intebral.Tests;
 import java.net.MalformedURLException;
 import java.net.URL;
 import org.openqa.selenium.Platform;
@@ -9,6 +8,7 @@ import org.testng.AssertJUnit;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
 public class IntegrationTests {
 	
 	WebDriver driver;

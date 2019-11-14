@@ -12,7 +12,7 @@ services:
     depends_on:
       - selenium-hub
     environment:
-      - HUB_HOST=selenium-hub
+      - HUB_PORT=selenium-hub
       - HUB_PORT=4444
   firefox:
     image: selenium/node-firefox:3.141.59-xenon
@@ -21,5 +21,5 @@ services:
     depends_on:
       - selenium-hub
     environment:
-      - HUB_HOST=selenium-hub
+      - HUB_PORT=selenium-hub
       - HUB_PORT=4444

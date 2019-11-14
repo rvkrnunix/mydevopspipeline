@@ -15,7 +15,8 @@ public class IntegrationTests {
 	String baseURL, nodeURL;
 
 @BeforeTest
-	public void setUp() throws MalformedURLException {
+	public void setUp() throws MalformedURLException 
+    {
 	System.out.println("getClass "+this.getClass());
 	System.out.println("System.getProperty(testSuite) "+System.getProperty("testSuite")); 
 	System.out.println("System.getProperty(testSuite) "+System.getProperty("surefire.suiteXmlFiles"));
@@ -28,13 +29,14 @@ public class IntegrationTests {
 	driver = new RemoteWebDriver(new URL(nodeURL), capability);
 	}
 
-	@AfterTest
+@AfterTest
 	public void afterTest() 
 	{
 		driver.quit();
 	}
-	@Test
-	public void sampleTest() {
+@Test
+	public void sampleTest() 
+	{
 		driver.get(baseURL);
 		System.out.println("driver.getTitle() "+driver.getTitle());
 		System.out.println("driver.getTitle().contains(\"DevOps Registration Form\") "+driver.getTitle().contains("DevOps Registration form"));
@@ -47,4 +49,5 @@ public class IntegrationTests {
 		{
 			AssertJUnit.assertTrue("Failed: DevOps Registration form",false);
 		}
-	}}
+	}
+}

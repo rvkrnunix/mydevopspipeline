@@ -2,7 +2,16 @@
 <suite name="Suite1" verbose="1">
 	<test name="Tests">
 		<classes>
-			<class name="com.intebral.Tests.IntegrationTest" />
+		<!-- <class name="com.eduapp.test.ChromeTest"/>
+			  <class name="com.eduapp.test.FireFoxTest"/> -->
+			  <class name="com.intebral.Tests.IntegrationTest"/>
 		</classes>
 	</test>
+	
+	    <!-- <class name="Regression1">
+	      <classes>
+	 		<class name="test.sample.PrameterSample"/>
+	 		<class name="test.sample.PrameterTest"/>
+	 	</classes>
+	 </test> -->
 </suite>

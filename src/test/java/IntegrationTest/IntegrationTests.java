@@ -1,4 +1,4 @@
-package com.intebral.Tests;
+package IntegrationTest;
 import java.net.MalformedURLException;
 import java.net.URL;
 import org.openqa.selenium.Platform;

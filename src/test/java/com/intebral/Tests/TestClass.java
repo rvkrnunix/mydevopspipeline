@@ -1,5 +1,7 @@
-package com.intebral.Tests; 
-	public static voidmain(String[] args) {
-		// TODO Auto-generated method stub
+package com.intebral.Tests;
 
-	}
+public class TestClass {
+	public static void main(String[] args) {
+
+}
+}

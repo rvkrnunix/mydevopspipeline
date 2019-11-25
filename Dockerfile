@@ -10,4 +10,4 @@ FROM java:8-jre
 EXPOSE 8080
 
 COPY ./MyDevPipeline.war /usr/local/tomcat/webapps
-CMD ["catalina.sh", "run"]
+###CMD ["catalina.sh", "run"]

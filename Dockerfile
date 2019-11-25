@@ -1,4 +1,4 @@
-## vi Dockerfile
+### vi Dockerfile
 # Pull base image
 FROM tomcat:8-jre8
 # copy war file on to container

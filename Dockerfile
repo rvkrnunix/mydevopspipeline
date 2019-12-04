@@ -4,4 +4,4 @@ FROM java:8-jre
 ##RUN mkdir -p "$CATALINA_HOME"
 COPY ./MyDevPipeline.war /usr/local/tomcat/webapps/
 EXPOSE 8080
-CMD ["catalina.sh", "run"]
+###CMD ["catalina.sh", "run"]

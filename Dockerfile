@@ -1,4 +1,4 @@
-FROM java:8-jre
+FROM tomcat:8-jre8
 #https://github.com/docker-library/tomcat
 COPY ./MyDevPipeline.war /usr/local/tomcat/webapps/
 ENV CATALINA_HOME /usr/local/tomcat

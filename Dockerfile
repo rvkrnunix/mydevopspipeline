@@ -8,5 +8,5 @@ WORKDIR $CATALINA_HOME
 ADD ./target/*.war $CATALINA_HOME/webapps/
 COPY ./MyDevPipeline.war /usr/local/tomcat/webapps/
 
-EXPOSE 8080
-CMD ["catalina.sh", "run"]
+##EXPOSE 8080
+##CMD ["catalina.sh", "run"]

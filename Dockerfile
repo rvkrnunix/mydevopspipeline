@@ -5,7 +5,7 @@ ENV PATH $CATALINA_HOME/bin:$PATH
 
 RUN mkdir -p "$CATALINA_HOME"
 WORKDIR $CATALINA_HOME
-ADD ./target/*.war $CATALINA_HOME/webapps/
+##ADD ./target/*.war $CATALINA_HOME/webapps/
 COPY ./MyDevPipeline.war /usr/local/tomcat/webapps/
 
 ##EXPOSE 8080
